@@ -22,13 +22,14 @@ print(fruits)
 fruits[-1]='tomatoes' 
 print(fruits)
 
+#append()
 #.append adds items at the end of the list
 fruits.append('strawberries')
 print(fruits)
 fruits.append('apple')
 print(fruits)
 
-#insert
+#insert()
 #.insert adds items at a specified index 
 fruits.insert(3,'watermelon')
 print(fruits)
@@ -46,11 +47,13 @@ print(days_of_the_week)
 days_of_the_week.insert(3,'December')
 print(days_of_the_week)
 
+#remove()
 #.remove() removes a specified item from the list
 print(fruits)
 fruits.remove('Lemon')
 print(fruits)
 
+#pop()
 #.pop() removes an item at a specified index and if index is not provided it removes the last item on the list
 print(fruits)
 fruits.pop(2)
@@ -58,6 +61,7 @@ print(fruits)
 fruits.pop()
 print(fruits)
 
+#clear()
 #.clear() erases all items from the list
 
 #delete friday from the list

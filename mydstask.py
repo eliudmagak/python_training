@@ -27,3 +27,5 @@ my_ds[5][1]='Jane'
 my_ds[5]=tuple(my_ds[5])
 print(my_ds)
 
+name='kondeyo'
+print(name[::2])

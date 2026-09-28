@@ -1,3 +1,9 @@
+#-> It's a data structure that stores multile items that can be of different data types.
+#-> Items are enclosed with square brackets[]
+#-> Items are ordered (have index)
+#-> Items are mutable (can be modified or changed)
+#-> All lists belong to class list.
+
 fruits=['Mango','Banana','Lemon','Grapes','Oranges']
 print(fruits)
 print(type(fruits))

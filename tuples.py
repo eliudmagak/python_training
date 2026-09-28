@@ -1,3 +1,8 @@
+#-> They store multiple items that can be of any datatype just like lists
+#-> Items are ordered (have index)
+#-> Items in a tuple are immutable(cannot be changed)>thus is the main difference between tuples and list
+#-> Items are enclosed with normal brackets()
+#-> All tuples belong to class tuple
 
 fruits=('Mango','Banana','Lemon','Grapes','Oranges')
 print(fruits)

@@ -1,4 +1,4 @@
-#integers
+#integers-> All numeric characters(whole nimbers) without decimal points and quotations
 num1=1000
 num2=20 
 
@@ -30,7 +30,7 @@ print(x)
 x=2**3
 print(x) 
 
-#floats
+#floats-> All numeric characters with decimal points and without quotations.
 num4=995.567
 
 #round() #rounds off the number to the nearest whole number or to the specified decimal places

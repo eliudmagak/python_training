@@ -1,3 +1,5 @@
+#-> Are all alphanumeric and special characters enclosed with quotations ""
+
 first_name='Eliud'
 last_name='Magak'
 

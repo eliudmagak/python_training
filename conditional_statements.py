@@ -55,12 +55,19 @@ else:
     #else
 
 #print access granted if password is similar to Admin@254! otherwise access Denied
-password=input('Enter your password')
+password=input('Enter your password:')
 
 if password=='Admin@254!':
     print('access Granted')
 else:
     print('access Denied')
+
+passcode=input('Enter passcode:')
+correct_passcode='Eliud123'
+if passcode==correct_passcode:
+    print('Access granted')
+else:
+    print('Access denied')
 
 #if-elif-else
 # =>Elif is used when we have multiple conditions with different outcomes
@@ -104,7 +111,7 @@ else:
 # print C if marks is above 60
 # print D id marks is above 50
 # otgerwise print E
-marks=56
+marks=68
 
 if marks>80:
     print('A')
@@ -116,5 +123,5 @@ elif marks>50:
     print('D')
 else:
     print('E')
-
+ 
 

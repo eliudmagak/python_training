@@ -80,7 +80,7 @@ else:
   #Prints "String Detected" if value is a string.
   #Prints "Integer Detected" if value is an integer.
   #Prints "Unknown Type" for any other type.
-Value=input('Enter your Variable: ')
+Value=25
 if type(Value)==str:
     print('string Detected')
 elif type(Value)==int:
@@ -88,4 +88,25 @@ elif type(Value)==int:
 else:
     print('Unknown Type')
 
- 
+  #Write a Python program that checks if a variable student_score is greater than 90. If true, check if the attendance is greater than 80. If both conditions are true, print "Excellent student", otherwise print "Good score, but attendance needs improvement"
+
+
+ #Write a program that:
+#Takes a transaction amount and account type ("Standard" or "Premium") as input.
+#f the account type is "Standard":
+#Check if the amount is above 500:
+#If it is, print "Transaction exceeds the limit for Standard accounts."
+#If not, print "Transaction approved."
+#If the account type is "Premium":
+#Check if the amount is above 1,000:
+#If it is, print "Transaction exceeds the limit for Premium accounts."
+#If not, print "Transaction approved."
+#Otherwise “Wrong account type” 
+
+
+#Given x = 7 and y = 14, write nested conditional statements that print:
+#"x and y are both even" if both x and y are even numbers.
+#"Only y is even" if only y is even.
+#"Neither x nor y are even" if both are odd.
+
+

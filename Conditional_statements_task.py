@@ -4,16 +4,16 @@ num1=int(input('Enter the first number: '))
 num2=int(input('Enter the second number: '))
 num3=int(input('Enter the third number: '))
 
-if num1 > num2 and num3:
+if num1 > num2 and num1 > num3:
     print('The largest number is:',num1)
-elif num2 > num1 and num3:
+elif num2 > num1 and num2 > num3:
     print('The largest number is:',num2)
 else:
     print('The largest number is:',num3)
 
 
 #2.Take as input from a user the temperature if the temperature is above 30°C display “The temperature is too high”,if the temperature is above 15 display “Normal temperature” otherwise display “Cold temperature”
-temperature=int(input('Temperature: '))
+temperature=float(input('Temperature: '))
 if temperature > 30:
     print('The temperature is too high')
 elif temperature > 15:
@@ -71,7 +71,7 @@ else:
   #Prints "Access Denied" if user_id is not in valid_ids.
 valid_ids = [101, 102, 103]
 user_id = 105
-if user_id==valid_ids:
+if user_id in valid_ids:
     print('Access Granted')
 else:
     print('Access Denied')
@@ -87,3 +87,5 @@ elif type(Value)==int:
     print('Integer Detected')
 else:
     print('Unknown Type')
+
+ 

@@ -10,7 +10,7 @@ print(student_name)
 
 #Python outline
 # 1. Introduction to python.
-# 2. Inbuilt functions (print(), len(),input(),type(),round(),float(),int(),str(),list(),tuple(),set(),del()).
+# 2. Inbuilt functions (print(), len(),input(),type(),round(),float(),int(),str(),list(),tuple(),set(),del(),range()).
 # 3. Variables.
 # 4. Datatypes(strings, integers,floats,Booleans)
 # 5. Data structures(Dictionaries,lists,tuples,sets)

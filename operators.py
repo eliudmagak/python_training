@@ -4,7 +4,7 @@
      #Categories of operators
 #->Arithmetic Operators->Used to perform calculations(%,//,-,**,+,*,/)
 
-#->Comparison operators->Used to compare values or variables(>,<,==,>=,<=)
+#->Comparison operators->Used to compare values or variables(>,<,==,>=,<=,!=)
 #>They return boolean(true or false)
 #>create conditions
 print(10==10)
